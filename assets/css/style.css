@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.heroSection{
+	background-color: #fcdb00;
+	padding: 60px 0 105px;
+}
+.heroSection .header{
+	margin-bottom: 60px;
+}
+
+.heroSection .navbar ul li{
+	display: inline-block;
+}
+.navbar ul li{
+	margin-left: 50px;
+}
+.navbar ul li a{
+	text-transform: capitalize;
+	color:#010101;
+	font-size: 22px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px;
+}
+.navbar ul li .active{
+	font-weight: 300;
+}
+.heroSection .inspiration{
+	margin-top: 75px;
+}
+
+.heroSection .inspiration .para{
+	font-size: 16px;
+	font-weight: 400;
+	color: #555555;
+	margin-bottom: 35px;
+}
+.heroSection .s-icons li{
+	display: inline-block;
+	margin-right: 35px;
+	
+}
+.heroSection .s-icons li a{
+	color: #010101;
+	font-size: 42px;
+}	
+.heroSection .s-icons li a i{
+	transition: all 0.7s linear;
+}
+
+.heroSection .s-icons li a i:hover{
+	transform: scale(1.2) rotate(360deg);
+}
+.heroSection .hero-img{
+	margin-left: 24%;
+}
+
+
+
+
+
+
+/* ...........................................heroSection end...............................................*/
+.featureSection{
+	padding: 120px 0 75px;
+	
+}
+.featureSection .t-features{
+	margin-bottom: 65px;
+}
+.featureSection .thumbnail{
+	margin-bottom: 90px;
+}
+.featureSection .thumbnail i{
+	font-size: 50px;
+	font-weight: 400;
+	color: #010101;
+}
+.featureSection .thumbnail-info h4{
+	font-size: 22px;
+	font-weight: 400;
+	color: #010101;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.featureSection .thumbnail-info p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
