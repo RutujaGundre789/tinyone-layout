@@ -4,6 +4,9 @@ a, a:link, a:visited{
 ul, ol{
 	list-style: none;
 }
+.text-white{
+	color: #fff;
+}
 .pri-heading{
 	font-size: 32px;
 	font-weight: bold;

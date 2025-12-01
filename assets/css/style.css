@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: "PT Sans", sans-serif;
+}
 .heroSection{
 	background-color: #fcdb00;
 	padding: 60px 0 105px;
@@ -90,4 +93,70 @@
 	font-size: 16px;
 	font-weight: 400;
 	color: #898989;
+}
+
+
+
+/* ...........................................featureSection end...............................................*/
+.contact-section{
+	padding: 95px 0 135px;
+	background-color: #010101;
+	
+}
+.contact-section .contact-info h2{
+	color: #fcdb00;
+	font-weight: 400;
+	
+}
+.contact-section .contact-info h3{
+	color: #898989;	
+	font-family: "Open Sans", sans-serif;
+}
+.contact-section .contact-email{
+	padding-left: 25px;
+	height: 50px;
+	width: calc(100% - 160px);
+	outline: none;
+	border-radius: 5px;
+}
+.contact-section .form-group{
+	margin-bottom: 80px;
+}
+.contact-section .submit-btn{
+	height: 50px;
+	width: 125px;
+	background-color: #fcdb00;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #010101;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.contact-section .contact-email::placeholder{
+	font-size: 16px;
+	color: #898989;
+}
+.contact-section .footer-icons{
+	margin-bottom: 130px;
+}
+.contact-section .footer-icons li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.contact-section .footer-icons a i{
+	color: #fcdb00;
+	font-size: 42px;
+	
+}
+.contact-section .footer-list a{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+.contact-section address li{
+	font-style: normal;
+	
 }
